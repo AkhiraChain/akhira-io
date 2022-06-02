@@ -42,7 +42,7 @@ export const CustomContractOverviewPage: React.FC<
           <FeedbackFormCard
             trackEvent={trackEvent}
             wallet={address}
-            scope="thirdweb-deploy"
+            scope="akhira-deploy"
             localStorageKey={`tw_deploy-${contractAddress}`}
           />
         )}
